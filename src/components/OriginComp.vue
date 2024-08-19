@@ -164,7 +164,7 @@ const handleDownload = () => {
       domToPng(div, {
         scale: 2
       })
-        .then((dataUrl) => {
+        .then((dataUrl: string) => {
           const link = document.createElement('a')
           link.download = `javascript-equality-${type.value}.png`
           link.href = dataUrl
