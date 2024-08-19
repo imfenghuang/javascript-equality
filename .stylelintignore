@@ -1,0 +1,8 @@
+node_modules
+public
+dist
+**/*.svg
+**/*.ts
+**/*.tsx
+**/*.js
+**/*.json
